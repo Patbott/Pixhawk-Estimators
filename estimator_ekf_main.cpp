@@ -32,12 +32,11 @@
  ****************************************************************************/
 
 /**
- * @file local_position_estimator.cpp
- * @author James Goppert <james.goppert@gmail.com>
- * @author Mohammed Kabir
- * @author Nuno Marques <n.marques21@hotmail.com>
- *
- * Local position estimator
+ * @file estimator_ekf_main.cpp
+ * @author Patrick Koelewijn <patrick.koelewijn@gmail.com>
+ * 
+ * Testing peformance of various estimators. 
+ * Code based on Local position estimator.
  */
 
 #include <unistd.h>
