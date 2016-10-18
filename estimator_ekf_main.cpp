@@ -81,7 +81,7 @@ usage(const char *reason)
 		fprintf(stderr, "%s\n", reason);
 	}
 
-	fprintf(stderr, "usage: estimator_ekf {kalman|ekf} [-p <additional params>]\n\n");
+	fprintf(stderr, "usage: estimator_ekf {kalman|ekf|ekfui} [-p <additional params>]\n\n");
 	return 1;
 }
 
